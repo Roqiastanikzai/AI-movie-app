@@ -6,15 +6,15 @@ export default function ResultView({ recommendation, loading, onNextRecommendati
   };
 
   const titlePosterMap = {
-    'Avatar: The Way of the Water': 'https://image.tmdb.org/t/p/w342/rWJdI0bQEcqpUtrP8FgasV1idJy.jpg',
-    'The Fabelmans': 'https://image.tmdb.org/t/p/w342/5EF4k4ZABqNKkbQLdSc5zROgLdK.jpg',
-    'Troll': 'https://image.tmdb.org/t/p/w342/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg',
-    'Everything Everywhere All at Once': 'https://image.tmdb.org/t/p/w342/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg',
-    'Oppenheimer': 'https://image.tmdb.org/t/p/w342/7U4kxK0iLal0fj9JfBv4fo0s2C3.jpg',
-    'Barbie': 'https://image.tmdb.org/t/p/w342/7U3l14Y6FPWHHM0hF0tjNTJZ8BA.jpg',
-    'Spider-Man: Across the Spider-Verse': 'https://image.tmdb.org/t/p/w342/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg',
-    'Pathaan': 'https://image.tmdb.org/t/p/w342/kTmG40O5dHI3ZDKj3urMvR5rRY0.jpg',
-    'RRR': 'https://image.tmdb.org/t/p/w342/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg',
+    'Avatar: The Way of the Water': 'https://tse4.mm.bing.net/th/id/OIP.iGavFjpzR52Sb24WaVZ7mQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'The Fabelmans': 'https://tse2.mm.bing.net/th/id/OIP.OC982mMm6aJ2GT2ECVbKqgHaFG?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Troll': 'https://tse2.mm.bing.net/th/id/OIP.lTJMZLCi_XRI5-BpG-CGCQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Everything Everywhere All at Once': 'https://tse4.mm.bing.net/th/id/OIP.8AL_oyLonZQstAlkJTKhCgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Oppenheimer': 'https://tse4.mm.bing.net/th/id/OIP.-ocFuaVQyabO3ydosrlQkgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Barbie': 'https://tse3.mm.bing.net/th/id/OIP.CBYyHpUflrfxYVImyQAGeQHaDh?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Spider-Man: Across the Spider-Verse': 'https://tse3.mm.bing.net/th/id/OIP.NN0SjMqnwSdWa-kmkJZvaAHaLH?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'Pathaan': 'https://tse2.mm.bing.net/th/id/OIP.UOVUbuAGdTQ72oQ5oL7diQHaJ3?rs=1&pid=ImgDetMain&o=7&rm=3',
+    'RRR': 'https://tse2.mm.bing.net/th/id/OIP.DsyE699dbPH9mT4ZpWKh7gHaLG?rs=1&pid=ImgDetMain&o=7&rm=3',
   };
 
   const normalizedTitle = String(recommendation?.title || 'Movie Poster').trim();
