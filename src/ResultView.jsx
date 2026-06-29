@@ -84,4 +84,53 @@ const styles = {
   title: {
     textAlign: 'center',
     marginBottom: '25px',
-    color
+    color: '#e94560',
+  },
+  poster: {
+    width: '120px',
+    height: '180px',
+    borderRadius: '6px',
+    objectFit: 'cover',
+    backgroundColor: '#222',
+  },
+  movieTitle: {
+    margin: '0 0 10px 0',
+    fontSize: '22px',
+    color: '#fff',
+  },
+  year: {
+    color: '#888',
+    fontSize: '16px',
+  },
+  movieDesc: {
+    margin: '0',
+    color: '#ccc',
+    fontSize: '13px',
+    lineHeight: '1.4',
+  },
+  explanationBox: {
+    backgroundColor: '#22223b',
+    padding: '15px',
+    borderRadius: '8px',
+    marginBottom: '25px',
+  },
+  explanationText: {
+    color: '#ccc',
+    fontSize: '14px',
+    lineHeight: '1.6',
+  },
+  button: {
+    flex: 1,
+    padding: '12px',
+    borderRadius: '6px',
+    border: 'none',
+    backgroundColor: '#e94560',
+    color: '#fff',
+    fontSize: '15px',
+    fontWeight: 'bold',
+    cursor: 'pointer',
+  },
+  loadingText: {
+    color: '#e94560',
+  },
+};
